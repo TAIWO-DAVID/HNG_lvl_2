@@ -1,0 +1,174 @@
+* {
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+}
+.left {
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.right {
+    display: inline-flex;
+    align-items: center;;
+    float: right;
+    width: 50%;
+    height: 32px;
+    gap: 8px;
+    justify-content: flex-end;
+    /* padding: 8px; */
+}
+
+.div-box {
+    display: block;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+main {
+    width: 100%;
+    margin-bottom: 60px;
+    /* min-height: 1024px; */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.background-text {
+    position: absolute;
+    top: 30%;
+    /* left: 20%; */
+    bottom: 30%;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    width: 140px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 22px;
+    filter: opacity(0.5);
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: #EDEDED;
+    /* color: #ededed; */
+    /* opacity: 35%; */
+    border: 3px solid #FFFFFF;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.headset-background {
+    /* background-color: aqua; */
+    background-image: url("../images/background_image.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.multiverse_logo {
+    background-image: url("../images/maltiverse_logo.svg");
+}
+
+header {
+    display: flex;
+    height: 50px;
+    /* margin: 35px 0; */
+}
+
+.nav-tabs {
+    display: inline-flex;
+    align-self: center;
+    font-size: larger;
+    height: 16px;
+    font-weight: 500;
+    gap: 50px;
+    color: #2a2a2a;
+}
+div.cards img {
+    width: 100%;
+}
+
+.cards {
+    width: 33.33%;
+}
+
+.cards-div {
+    display: inline-flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.fashion-header{
+        /* align-self: center; */
+    display: inline-flex;
+    align-items: center;
+    font-family: montserrat;
+    color: 2A2A2A;
+    gap: 33px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.product {
+    display: inline-flex;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.product ~p {
+    font-weight: lighter;
+}
+
+.add-to-cart {
+    margin-top: 20px;
+    border: 2px solid #ff7f7d;
+    background-color: white;
+}
+
+footer {
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+    text-align: center;
+    /* height: 259px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-header {
+    padding: 50px 0;
+}
+
+.footer-address {
+    width: 100vw;
+    padding-bottom: 60px;
+}
+
+.footer-address p {
+    width: 33.33%;
+    align-content: center;
+}
