@@ -34,9 +34,9 @@ const ShoppingCart = () => {
                     <img src={maltiverse_logo} alt="Muiltiverse_logo" />
                 </div>
                 <div className="right nav-tabs">
-                    <div style={{ color: 'red' }}>Product Listing</div>
-                    <div>My Cart</div>
-                    <div>Checkout</div>
+                    <div style={{ color: 'red' }}><a href={'example.com'}>Product Listing</a></div>
+                    <div><a href={'example.com'}>My Cart</a></div>
+                    <div><a href={'example.com'}>Checkout</a></div>
                 </div>
             </header>
 
@@ -44,7 +44,7 @@ const ShoppingCart = () => {
                 <div className="headset-background">
                     <div className="background-text">
                         <h2>Premium Sound, Premium Savings</h2>
-                        <p>Limited offer, hop on and get yours now</p>
+                        <p>Limited offer, hope on and get yours now</p>
                         <button>Buy Now</button>
                     </div>
                 </div>

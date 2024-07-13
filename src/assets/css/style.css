@@ -39,7 +39,9 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
+    width: fit-content;
 }
+
 
 
 
@@ -105,6 +107,11 @@ header {
     gap: 50px;
     color: #2a2a2a;
 }
+
+.nav-tabs div a {
+    text-decoration: none;
+}
+
 div.cards img {
     width: 100%;
 }
@@ -172,3 +179,25 @@ footer {
     width: 33.33%;
     align-content: center;
 }
+
+/* Media Queries */
+/* media queries should always be placed below the css styles */
+/* 
+@media screen and (max-width: 391px) {
+	
+}
+
+@media only screen and (min-width: 601px) { 
+}
+
+@media only screen and (max-width: 425px) {
+}
+
+@media only screen (min-width: 520px) and (max-width: 600px) {
+}
+
+@media screen and (max-width: 321px) {
+} */
+
+/* Initial styles for the content */
+
